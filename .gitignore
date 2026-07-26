@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Trained model checkpoints are too big for git
+*.h5
+*.keras
+*.hdf5
+*.ckpt
+
+# KiTS19 source volumes and the 2D slices generated from them
+data/
+2d_data/
+kits19/
+*.nii
+*.nii.gz
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
